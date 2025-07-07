@@ -159,7 +159,15 @@ function frame(timestamp) {
 
 function onKeyDown(e) {
   keys[e.key] = true;
-  if (e.code === 'Space') running = !running;
+  if (e.code === 'Space') {
+    if (!running && speed === 0 && score > 0) {
+      // restart after crash
+      position = 0;
+      score = 0;
+      playerX = 0;
+    }
+    running = !running;
+  }
 }
 
 function onKeyUp(e) {

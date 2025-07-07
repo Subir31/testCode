@@ -13,4 +13,4 @@ This repository contains a simple web-based racing game located in the `racing-g
    ```
 
 3. Open your browser and go to [http://localhost:8000](http://localhost:8000).
-4. Press **Space** to start or pause the game. Use **←**/**→** to steer and **↑**/**↓** to control speed. Avoid yellow obstacles on the road.
+4. Press **Space** to start or pause the game. Use **←**/**→** to steer and **↑**/**↓** to control speed. If you crash into an obstacle, press **Space** again to restart from the beginning. Avoid yellow obstacles on the road.
