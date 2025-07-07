@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+#ui {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#score {
+    font-size: 20px;
+    margin-top: 5px;
+}
+canvas {
+    display: block;
+    margin: 0 auto;
+    background: #222;
+}
